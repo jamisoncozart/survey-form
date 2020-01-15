@@ -9,11 +9,11 @@ $(document).ready(function(){
     
     //Color selectors for ball
     if(color === "Red") {
-      $("#ball").attr("src", "img/redball.jpg");
+      $("#ball").attr("src", "img/redball.png");
     } else if(color === "Blue") {
-      $("#ball").attr("src", "img/blueball.jpg");
+      $("#ball").attr("src", "img/blueball.png");
     } else if(color === "Yellow") {
-      $("#ball").attr("src", "img/yellowball.jpg");
+      $("#ball").attr("src", "img/yellowball.png");
     }
   });
 });
